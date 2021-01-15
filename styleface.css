@@ -1,0 +1,73 @@
+.words { 
+    float: right;
+    color:blue;
+    font-size:20px;
+    position: absolute;
+    Top: 50px;
+    right: 185px; 
+    
+}
+* {
+    box-sizing: border-box;
+  }
+.clear{
+    clear: right;
+    
+}
+.container {
+    float: left;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: #f2f2f2;
+    padding: 50px 70px 70px 60px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+.row {
+    display: table;
+    clear: both;
+    width: 80%
+    margin-right: 25px;
+    
+}
+
+
+.col {
+    float: left;
+    width: 150%;
+    margin-top: 5px;
+   
+  }
+
+  input[type=submit] {
+    background-color: #393ceb;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+   
+  }
+  .vergess {
+    margin-top:10px;
+    margin-left:30px;
+  }
+  .linie {
+    width:100%;
+  }
+  
